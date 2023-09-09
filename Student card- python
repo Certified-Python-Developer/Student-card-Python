@@ -1,0 +1,15 @@
+student = {
+    "Name": "Uzair",
+    "age": 13,
+    "grade": "A"
+}
+
+# Accessing dictionary valu
+
+# Modifying a value
+student["age"] = 13
+
+# Iterating through keys and values
+for key, value in student.items():
+    print(key, ":", value)
+
